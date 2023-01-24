@@ -1,0 +1,37 @@
+.column {
+    height: 568px;
+    height: 568px;
+    width: var(--column-width);
+    position: relative;
+    top: var(--column-top);
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .column-container {
+    width: var(--column-width);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 35px;
+    gap:4px;
+
+  }
+
+
+.scroll-bar {
+  height: 225px;
+  width: 6px;
+  opacity: 0.5;
+  border-radius: 3px;
+  background-color: #000000;
+  position: relative;
+  top: 79px;
+  right: 2px;
+  bottom: 264px;
+  left: 262px;
+  margin: 0px;
+} 

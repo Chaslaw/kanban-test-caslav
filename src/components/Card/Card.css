@@ -1,0 +1,24 @@
+.card-container {
+    width: var(--card-width);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 7px;
+    background-color: #FFFFFF;
+    gap: 7px;
+    border-radius: 6px;
+    box-shadow: 0 2px 7px -2px rgba(0,0,0,0.2);
+}
+
+.title {
+    width: 236px;
+    color: #333;
+    font-family: "SF Pro Display";
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    line-height: 18px;
+  }
+
+/* .title, .number, .date-and-avatar, .date, .avatar {
+    height: 0px;
+  } */
